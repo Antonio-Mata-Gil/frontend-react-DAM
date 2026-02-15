@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 const axiosInstance = axios.create({
-  baseURL: "https://crooked-scarlet-amdesigns-e773a059.koyeb.app"
+  baseURL: API_BASE_URL
 });
 
 // Validar que el usuario tenga credenciales y rol autorizado
