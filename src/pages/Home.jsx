@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Insignia from "../components/Insignia";
+import Insignia from "../components/insignia";
 import UsersList from "../components/UsersList";
 import CreateUser from "../components/CreateUser";
 
