@@ -1,7 +1,7 @@
 import { useState } from "react";
-import CreateUser from "../components/createUser";
+import Insignia from "../components/Insignia";
 import UsersList from "../components/UsersList";
-import Insignia from "../components/insignia";
+import CreateUser from "../components/CreateUser";
 
 function Home() {
   const [credentials, setCredentials] = useState({
